@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NERTFerorttimate" customModule="NertqrtuFpdc" customModuleProvider="target">
+            <connections>
+                <outlet property="supplmentvieNERT" destination="Rqf-0f-csK" id="VJA-DA-4A9"/>
+                <outlet property="view" destination="5Yy-k0-FKi" id="ltx-Qr-vAs"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="5Yy-k0-FKi">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eluaoBGNERT" translatesAutoresizingMaskIntoConstraints="NO" id="6bc-Lb-dcd">
+                    <rect key="frame" x="12" y="116" width="369" height="606"/>
+                </imageView>
+                <button opaque="NO" tag="235" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Sh-6a-Mm1">
+                    <rect key="frame" x="39" y="361" width="230" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="9A8-aE-vef"/>
+                        <constraint firstAttribute="width" constant="230" id="Wrw-8y-u47"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="   Violation of Terms of Service" image="NERT_notStatuspo">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="0.51557185370000003" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" image="NERT_Statuspo">
+                        <color key="titleColor" red="0.86666666670000003" green="0.97254901959999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="barbuecueNERT:" destination="-1" eventType="touchUpInside" id="PZ2-qi-MWu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="234" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CNX-yn-BPg">
+                    <rect key="frame" x="39" y="308" width="246" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="246" id="Ndr-42-W0Z"/>
+                        <constraint firstAttribute="height" constant="45" id="xNC-nZ-ktO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="   Spamming or Abusive Behavior" image="NERT_notStatuspo">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="0.51557185370000003" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" image="NERT_Statuspo">
+                        <color key="titleColor" red="0.86666666670000003" green="0.97254901959999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="barbuecueNERT:" destination="-1" eventType="touchUpInside" id="joo-DN-pmX"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you sure you want to report this? Please select a reason for your report:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7I-F3-soO">
+                    <rect key="frame" x="24" y="205" width="345" height="36"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADi-2f-3fV">
+                    <rect key="frame" x="164.66666666666666" y="164" width="64" height="24"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBI-Y6-qsT">
+                    <rect key="frame" x="181.66666666666666" y="67" width="30" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="DgR-Xt-NJR"/>
+                        <constraint firstAttribute="height" constant="30" id="R12-vj-ozh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="NERT_closespo">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="turnroundNERT:" destination="-1" eventType="touchUpInside" id="T2E-xQ-RCr"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="789" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tol-e9-Rfy">
+                    <rect key="frame" x="39" y="751" width="315" height="51"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="315" id="om9-Eh-Tdf"/>
+                        <constraint firstAttribute="height" constant="51" id="vyV-eT-3hi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Submit Report" backgroundImage="NERT_anButouBgo">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="barbuecueNERT:" destination="-1" eventType="touchUpInside" id="Mk0-mz-6nm"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="233" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vqu-2I-Gh8">
+                    <rect key="frame" x="39" y="255" width="246" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="246" id="NkE-DY-ba2"/>
+                        <constraint firstAttribute="height" constant="45" id="adr-de-abk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="   Hateful Speech or Harassment" image="NERT_notStatuspo">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="0.51557185374149661" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" image="NERT_Statuspo">
+                        <color key="titleColor" red="0.86666666670000003" green="0.97254901959999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="barbuecueNERT:" destination="-1" eventType="touchUpInside" id="noO-uf-ola"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rqf-0f-csK">
+                    <rect key="frame" x="39" y="475" width="315" height="226"/>
+                    <color key="backgroundColor" red="0.023529411764705882" green="0.23685854586589883" blue="0.1849113662073221" alpha="0.50736075680272108" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <string key="text">Supplementary description 
+(optional)...</string>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" tag="236" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koT-oB-Uz4">
+                    <rect key="frame" x="39" y="414" width="260" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="260" id="Ta5-nj-zMb"/>
+                        <constraint firstAttribute="height" constant="45" id="eHt-9z-g9P"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="   Intellectual Property Infringement" image="NERT_notStatuspo">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="0.51557185370000003" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="selected" image="NERT_Statuspo">
+                        <color key="titleColor" red="0.86666666670000003" green="0.97254901959999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="barbuecueNERT:" destination="-1" eventType="touchUpInside" id="C3p-ql-TQe"/>
+                    </connections>
+                </button>
+                <textField hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JyJ-sK-9DU">
+                    <rect key="frame" x="275.66666666666669" y="125" width="20" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="Jjh-k7-F3r"/>
+                        <constraint firstAttribute="height" constant="10" id="Q40-Lg-mDQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C98-ud-n4a">
+                    <rect key="frame" x="265.66666666666669" y="62" width="40" height="40"/>
+                    <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="RxP-NX-z4a"/>
+                        <constraint firstAttribute="width" constant="40" id="vgz-8r-QWh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="xyo-66-7CB"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="C98-ud-n4a" firstAttribute="centerY" secondItem="PBI-Y6-qsT" secondAttribute="centerY" id="5J0-F9-O82"/>
+                <constraint firstItem="6bc-Lb-dcd" firstAttribute="leading" secondItem="xyo-66-7CB" secondAttribute="leading" constant="12" id="B2M-le-jUe"/>
+                <constraint firstItem="tol-e9-Rfy" firstAttribute="centerX" secondItem="5Yy-k0-FKi" secondAttribute="centerX" id="B2Q-9P-Vi6"/>
+                <constraint firstItem="4Sh-6a-Mm1" firstAttribute="leading" secondItem="CNX-yn-BPg" secondAttribute="leading" id="Fm5-wd-wIF"/>
+                <constraint firstItem="ADi-2f-3fV" firstAttribute="top" secondItem="PBI-Y6-qsT" secondAttribute="bottom" constant="67" id="Ghx-4L-hsZ"/>
+                <constraint firstItem="xyo-66-7CB" firstAttribute="trailing" secondItem="6bc-Lb-dcd" secondAttribute="trailing" constant="12" id="H9F-Hh-qYZ"/>
+                <constraint firstItem="xyo-66-7CB" firstAttribute="trailing" secondItem="F7I-F3-soO" secondAttribute="trailing" constant="24" id="Op4-YJ-oRV"/>
+                <constraint firstItem="JyJ-sK-9DU" firstAttribute="centerX" secondItem="C98-ud-n4a" secondAttribute="centerX" id="PFb-KS-KBT"/>
+                <constraint firstItem="C98-ud-n4a" firstAttribute="leading" secondItem="PBI-Y6-qsT" secondAttribute="trailing" constant="54.329999999999998" id="QDU-JS-OS5"/>
+                <constraint firstItem="F7I-F3-soO" firstAttribute="top" secondItem="ADi-2f-3fV" secondAttribute="bottom" constant="17" id="T1G-n2-DeG"/>
+                <constraint firstItem="CNX-yn-BPg" firstAttribute="leading" secondItem="Vqu-2I-Gh8" secondAttribute="leading" id="UO9-I1-XOy"/>
+                <constraint firstItem="ADi-2f-3fV" firstAttribute="centerX" secondItem="5Yy-k0-FKi" secondAttribute="centerX" id="UYx-9n-3Xf"/>
+                <constraint firstItem="F7I-F3-soO" firstAttribute="leading" secondItem="xyo-66-7CB" secondAttribute="leading" constant="24" id="VRf-RR-rYh"/>
+                <constraint firstItem="ADi-2f-3fV" firstAttribute="centerX" secondItem="5Yy-k0-FKi" secondAttribute="centerX" id="WCx-j0-oJ7"/>
+                <constraint firstItem="koT-oB-Uz4" firstAttribute="top" secondItem="4Sh-6a-Mm1" secondAttribute="bottom" constant="8" id="X9b-Vs-GXX"/>
+                <constraint firstItem="CNX-yn-BPg" firstAttribute="top" secondItem="Vqu-2I-Gh8" secondAttribute="bottom" constant="8" id="cb3-gq-RWX"/>
+                <constraint firstItem="koT-oB-Uz4" firstAttribute="leading" secondItem="4Sh-6a-Mm1" secondAttribute="leading" id="jGJ-oD-FFN"/>
+                <constraint firstItem="Rqf-0f-csK" firstAttribute="leading" secondItem="xyo-66-7CB" secondAttribute="leading" constant="39" id="krd-GX-iQT"/>
+                <constraint firstItem="tol-e9-Rfy" firstAttribute="top" secondItem="Rqf-0f-csK" secondAttribute="bottom" constant="50" id="oOJ-yb-7Ww"/>
+                <constraint firstItem="4Sh-6a-Mm1" firstAttribute="top" secondItem="CNX-yn-BPg" secondAttribute="bottom" constant="8" id="pbn-aq-EhE"/>
+                <constraint firstItem="PBI-Y6-qsT" firstAttribute="top" secondItem="xyo-66-7CB" secondAttribute="top" constant="8" id="qtO-hB-PKw"/>
+                <constraint firstItem="PBI-Y6-qsT" firstAttribute="centerX" secondItem="5Yy-k0-FKi" secondAttribute="centerX" id="rRm-Ba-fXe"/>
+                <constraint firstItem="Vqu-2I-Gh8" firstAttribute="top" secondItem="F7I-F3-soO" secondAttribute="bottom" constant="14" id="reJ-3j-Ult"/>
+                <constraint firstItem="6bc-Lb-dcd" firstAttribute="top" secondItem="xyo-66-7CB" secondAttribute="top" constant="57" id="sQv-M1-7rt"/>
+                <constraint firstItem="xyo-66-7CB" firstAttribute="trailing" secondItem="Rqf-0f-csK" secondAttribute="trailing" constant="39" id="u1G-bB-5v6"/>
+                <constraint firstItem="xyo-66-7CB" firstAttribute="bottom" secondItem="tol-e9-Rfy" secondAttribute="bottom" constant="16" id="vZ1-2m-s47"/>
+                <constraint firstItem="tol-e9-Rfy" firstAttribute="top" secondItem="6bc-Lb-dcd" secondAttribute="bottom" constant="29" id="wWD-DP-GXA"/>
+                <constraint firstItem="Vqu-2I-Gh8" firstAttribute="leading" secondItem="xyo-66-7CB" secondAttribute="leading" constant="39" id="wey-7p-vJt"/>
+                <constraint firstItem="JyJ-sK-9DU" firstAttribute="top" secondItem="C98-ud-n4a" secondAttribute="bottom" constant="23" id="wgF-79-eHQ"/>
+                <constraint firstItem="JyJ-sK-9DU" firstAttribute="top" secondItem="C98-ud-n4a" secondAttribute="bottom" constant="23" id="wuY-S6-tMd"/>
+                <constraint firstItem="Rqf-0f-csK" firstAttribute="top" secondItem="koT-oB-Uz4" secondAttribute="bottom" constant="16" id="zgm-vb-ZrB"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="NERT_Statuspo" width="18" height="18"/>
+        <image name="NERT_anButouBgo" width="315" height="51"/>
+        <image name="NERT_closespo" width="18" height="18"/>
+        <image name="NERT_notStatuspo" width="18" height="18"/>
+        <image name="eluaoBGNERT" width="351" height="577"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

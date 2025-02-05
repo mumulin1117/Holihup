@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>NERTAIType</key>
+		<string>festival Knowledge Q&amp;A</string>
+		<key>NERTAIName</key>
+		<string>Cupid&apos;s Quizzer</string>
+		<key>NERTAIBrieef</key>
+		<string>Specializing in Valentine&apos;s Day knowledge. I can quiz you on the legends of Cupid and his arrows. I know about the history of Valentine&apos;s Day cards and the evolution of their designs. I can also provide details on famous love stories associated with this romantic holiday and the traditions of gift-giving throughout the years.</string>
+		<key>NERTAIPicture</key>
+		<string>Knowed0</string>
+		<key>NERTSeenCountr</key>
+		<string>10</string>
+	</dict>
+	<dict>
+		<key>NERTAIType</key>
+		<string>festival Knowledge Q&amp;A</string>
+		<key>NERTAIName</key>
+		<string>Fireworks Factoid Bot</string>
+		<key>NERTAIBrieef</key>
+		<string>When it comes to Independence Day, I&apos;m your go-to for all fireworks-related knowledge. I can tell you about the different colors of fireworks and how they are created chemically. I know the history of fireworks in Independence Day celebrations, from the first displays to modern-day extravaganzas. I can also explain the safety measures and regulations surrounding fireworks usage during the holiday.</string>
+		<key>NERTAIPicture</key>
+		<string>Knowed1</string>
+		<key>NERTSeenCountr</key>
+		<string>8</string>
+	</dict>
+	<dict>
+		<key>NERTAIType</key>
+		<string>festival Knowledge Q&amp;A</string>
+		<key>NERTAIName</key>
+		<string>Easter Eggpert Bot</string>
+		<key>NERTAIBrieef</key>
+		<string>I&apos;m Easter Eggpert Bot. I possess extensive knowledge about Easter. I can answer all your questions regarding Easter eggs, such as the origin of the Easter egg hunt tradition, the different methods of egg decoration like dyeing and painting, and the significance of eggs in various Easter cultures. I also know about the history of chocolate eggs and the most popular Easter egg brands.</string>
+		<key>NERTAIPicture</key>
+		<string>Knowed2</string>
+		<key>NERTSeenCountr</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>NERTAIType</key>
+		<string>festival Activity Recommendation</string>
+		<key>NERTAIName</key>
+		<string>Pumpkin Party Promoter</string>
+		<key>NERTAIBrieef</key>
+		<string>I search high and low for the best Halloween pumpkin-themed parties. I can recommend parties at pumpkin patches where you can pick your own pumpkins and then enjoy spooky games and contests. I&apos;ll also find parties in haunted barns with pumpkin carving competitions and live music. I can provide details about costume requirements and the special pumpkin-flavored treats available at these events.</string>
+		<key>NERTAIPicture</key>
+		<string>RecommendRo0</string>
+		<key>NERTSeenCountr</key>
+		<string>12</string>
+	</dict>
+	<dict>
+		<key>NERTAIType</key>
+		<string>festival Activity Recommendation</string>
+		<key>NERTAIName</key>
+		<string>Love Festival Locator</string>
+		<key>NERTAIBrieef</key>
+		<string>I am Love Festival Locator. My task is to help you find amazing Valentine&apos;s Day festivals. I can suggest city-wide love festivals with street parades, heart-shaped balloon releases, and live performances by love song singers. I&apos;ll also locate small, intimate festivals in parks with candlelit dinners and couples&apos; dance classes. I can give you information about the ticket prices and the special activities for singles at these festivals.</string>
+		<key>NERTAIPicture</key>
+		<string>RecommendRo1</string>
+		<key>NERTSeenCountr</key>
+		<string>9</string>
+	</dict>
+	<dict>
+		<key>NERTAIType</key>
+		<string>festival Activity Recommendation</string>
+		<key>NERTAIName</key>
+		<string>Parade Planner Bot</string>
+		<key>NERTAIBrieef</key>
+		<string>I assist you in finding and planning for the best Independence Day parades. I can recommend parades in historical cities with marching bands, military tributes, and floats decorated with patriotic symbols. I&apos;ll provide details about the parade routes, the best viewing spots, and any associated street fairs or food festivals. I can also let you know about the opportunities to participate in the parades, such as joining a community float or marching group.</string>
+		<key>NERTAIPicture</key>
+		<string>RecommendRo2</string>
+		<key>NERTSeenCountr</key>
+		<string>6</string>
+	</dict>
+	<dict>
+		<key>NERTAIType</key>
+		<string>festival Prepation assistant</string>
+		<key>NERTAIName</key>
+		<string>Thanksgiving Table Setter</string>
+		<key>NERTAIBrieef</key>
+		<string>I&apos;m Thanksgiving Table Setter. I help you create a beautiful and inviting Thanksgiving table. I can suggest color schemes and tablecloth designs that match the fall theme. I&apos;ll provide a list of traditional Thanksgiving table decorations like cornucopias, gourds, and pilgrim figurines. I can also give you ideas for place settings, including napkin folds and name card designs.</string>
+		<key>NERTAIPicture</key>
+		<string>HelpNERo0</string>
+		<key>NERTSeenCountr</key>
+		<string>5</string>
+	</dict>
+	<dict>
+		<key>NERTAIType</key>
+		<string>festival Prepation assistant</string>
+		<key>NERTAIName</key>
+		<string>Christmas Tree Decorator</string>
+		<key>NERTAIBrieef</key>
+		<string>I help you create a stunning Christmas tree. I can suggest different ornament styles and color combinations to match your home decor. I&apos;ll provide a list of the best places to buy Christmas tree lights, tinsel, and unique ornaments. I can also give you ideas for tree toppers and how to arrange the presents underneath the tree in an attractive way.</string>
+		<key>NERTAIPicture</key>
+		<string>HelpNERo1</string>
+		<key>NERTSeenCountr</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>NERTAIType</key>
+		<string>festival Prepation assistant</string>
+		<key>NERTAIName</key>
+		<string>Halloween House Haunter</string>
+		<key>NERTAIBrieef</key>
+		<string>I&apos;ll guide you in transforming your house into a spooky Halloween haunt. I can suggest the placement of fake tombstones, cobwebs, and animatronic monsters in your front yard. I&apos;ll provide a list of DIY Halloween decorations like making a haunted mirror or a witch&apos;s cauldron. I can also help you plan the layout of a haunted house tour inside your home with spooky sound effects and hidden scares.</string>
+		<key>NERTAIPicture</key>
+		<string>HelpNERo2</string>
+		<key>NERTSeenCountr</key>
+		<string>4</string>
+	</dict>
+	<dict>
+		<key>NERTAIType</key>
+		<string>Emotional Company and Interaction</string>
+		<key>NERTAIName</key>
+		<string>Thanksgiving Gratitude Pal</string>
+		<key>NERTAIBrieef</key>
+		<string>I&apos;m here to share the spirit of gratitude with you during Thanksgiving. We can talk about the things we&apos;re thankful for in our lives, from family and friends to good health and happy memories. I can listen to your Thanksgiving traditions and the special meaning they hold. We can also exchange recipes and talk about the delicious food that makes Thanksgiving so special.</string>
+		<key>NERTAIPicture</key>
+		<string>interctNERo0</string>
+		<key>NERTSeenCountr</key>
+		<string>5</string>
+	</dict>
+	<dict>
+		<key>NERTAIType</key>
+		<string>Emotional Company and Interaction</string>
+		<key>NERTAIName</key>
+		<string>Easter Cheer Sharer</string>
+		<key>NERTAIBrieef</key>
+		<string>I&apos;m Easter Cheer Sharer. I&apos;ll be your companion during Easter. We can talk about the excitement of Easter egg hunts and the beauty of spring. I can listen to your Easter traditions and experiences and share some Easter blessings and positive thoughts. We can also discuss the significance of new life and renewal during Easter.</string>
+		<key>NERTAIPicture</key>
+		<string>interctNERo1</string>
+		<key>NERTSeenCountr</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>NERTAIType</key>
+		<string>Emotional Company and Interaction</string>
+		<key>NERTAIName</key>
+		<string>Christmas Joy Buddy</string>
+		<key>NERTAIBrieef</key>
+		<string>Let me share the joy and warmth of Christmas with you. We can talk about our favorite Christmas memories, from opening presents to singing carols. I can listen to your Christmas wishes and help you plan a family Christmas gathering. We can also discuss the meaning of Christmas and the spirit of giving.</string>
+		<key>NERTAIPicture</key>
+		<string>interctNERo2</string>
+		<key>NERTSeenCountr</key>
+		<string>2</string>
+	</dict>
+</array>
+</plist>

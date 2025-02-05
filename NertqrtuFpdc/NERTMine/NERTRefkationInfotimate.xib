@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NERTRefkationInfotimate" customModule="NertqrtuFpdc" customModuleProvider="target">
+            <connections>
+                <outlet property="fancechoicedNERT" destination="xZF-uE-QcW" id="bLu-5X-32E"/>
+                <outlet property="festivalQAQDataView" destination="uYu-se-9ll" id="WRh-yy-SzP"/>
+                <outlet property="followeechoicedNERT" destination="ykQ-if-uMb" id="8KD-r3-yz2"/>
+                <outlet property="view" destination="EpV-Ym-ygd" id="ic3-gB-N0Y"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="EpV-Ym-ygd">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nowerLognBgf" translatesAutoresizingMaskIntoConstraints="NO" id="kwY-rG-T3O">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="818"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gN1-fj-NsA">
+                    <rect key="frame" x="16" y="67" width="30" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="lHb-a4-jOU"/>
+                        <constraint firstAttribute="width" constant="30" id="yRb-ct-mUF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="NERT_arrowbackgine">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="turnroundNERT:" destination="-1" eventType="touchUpInside" id="uI9-HX-TMY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZF-uE-QcW">
+                    <rect key="frame" x="78.666666666666671" y="69.666666666666671" width="88.000000000000014" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="dMQ-f7-Wyp"/>
+                        <constraint firstAttribute="width" constant="88" id="yqS-f3-Xj7"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="FansNERTyi"/>
+                    <state key="selected" image="fancerNERT"/>
+                    <connections>
+                        <action selector="mninuture:" destination="-1" eventType="touchUpInside" id="cGP-A7-Anp"/>
+                    </connections>
+                </button>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="uYu-se-9ll">
+                    <rect key="frame" x="16" y="120" width="361" height="732"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="3Mt-EX-H1v">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ykQ-if-uMb">
+                    <rect key="frame" x="226.66666666666666" y="65.666666666666671" width="85.666666666666657" height="32.666666666666671"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="FollowedNERTG"/>
+                    <state key="selected" image="followertNERT"/>
+                    <connections>
+                        <action selector="mninuture:" destination="-1" eventType="touchUpInside" id="6vT-Pv-nNq"/>
+                    </connections>
+                </button>
+                <textField hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A77-49-Jdj">
+                    <rect key="frame" x="186.66666666666666" y="132" width="20" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="Gxp-TX-TRB"/>
+                        <constraint firstAttribute="width" constant="20" id="Wxc-9q-zg3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Pp-9h-ozl">
+                    <rect key="frame" x="176.66666666666666" y="69" width="40" height="40"/>
+                    <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="tjg-aQ-iaS"/>
+                        <constraint firstAttribute="width" constant="40" id="zSS-vw-eEu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="3oR-CE-gix"/>
+            <color key="backgroundColor" red="0.0" green="0.1137254902" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ykQ-if-uMb" firstAttribute="centerY" secondItem="xZF-uE-QcW" secondAttribute="centerY" id="3nX-ly-s8K"/>
+                <constraint firstItem="A77-49-Jdj" firstAttribute="centerX" secondItem="3Pp-9h-ozl" secondAttribute="centerX" id="6re-PG-p3T"/>
+                <constraint firstItem="ykQ-if-uMb" firstAttribute="leading" secondItem="xZF-uE-QcW" secondAttribute="trailing" constant="60" id="9aa-pX-i9l"/>
+                <constraint firstAttribute="bottom" secondItem="uYu-se-9ll" secondAttribute="bottom" id="D0v-Ec-nTM"/>
+                <constraint firstItem="A77-49-Jdj" firstAttribute="top" secondItem="3Pp-9h-ozl" secondAttribute="bottom" constant="23" id="F5l-Qf-LEm"/>
+                <constraint firstItem="xZF-uE-QcW" firstAttribute="centerY" secondItem="gN1-fj-NsA" secondAttribute="centerY" id="Kgo-7w-9eF"/>
+                <constraint firstItem="3Pp-9h-ozl" firstAttribute="top" secondItem="3oR-CE-gix" secondAttribute="top" constant="10" id="QzL-Sv-ffg"/>
+                <constraint firstItem="kwY-rG-T3O" firstAttribute="top" secondItem="EpV-Ym-ygd" secondAttribute="top" id="Rhr-rx-oJ9"/>
+                <constraint firstItem="kwY-rG-T3O" firstAttribute="leading" secondItem="3oR-CE-gix" secondAttribute="leading" id="Wgw-Hq-l37"/>
+                <constraint firstItem="gN1-fj-NsA" firstAttribute="top" secondItem="3oR-CE-gix" secondAttribute="top" constant="8" id="XDG-rR-5AN"/>
+                <constraint firstItem="gN1-fj-NsA" firstAttribute="leading" secondItem="3oR-CE-gix" secondAttribute="leading" constant="16" id="ZNN-yJ-Bcb"/>
+                <constraint firstItem="ykQ-if-uMb" firstAttribute="width" secondItem="xZF-uE-QcW" secondAttribute="width" multiplier="0.977011" id="b8n-Zn-lCQ"/>
+                <constraint firstItem="uYu-se-9ll" firstAttribute="leading" secondItem="3oR-CE-gix" secondAttribute="leading" constant="16" id="h5U-38-jYW"/>
+                <constraint firstItem="3oR-CE-gix" firstAttribute="trailing" secondItem="kwY-rG-T3O" secondAttribute="trailing" id="hbV-lt-r0Q"/>
+                <constraint firstItem="ykQ-if-uMb" firstAttribute="height" secondItem="xZF-uE-QcW" secondAttribute="height" multiplier="1.30435" id="mAk-9z-XV4"/>
+                <constraint firstAttribute="centerX" secondItem="xZF-uE-QcW" secondAttribute="trailing" constant="30" id="mIn-xR-uTw"/>
+                <constraint firstItem="3oR-CE-gix" firstAttribute="bottom" secondItem="kwY-rG-T3O" secondAttribute="bottom" id="p3I-Be-qzy"/>
+                <constraint firstItem="A77-49-Jdj" firstAttribute="top" secondItem="3Pp-9h-ozl" secondAttribute="bottom" constant="23" id="vPT-qk-zeG"/>
+                <constraint firstItem="3oR-CE-gix" firstAttribute="trailing" secondItem="uYu-se-9ll" secondAttribute="trailing" constant="16" id="wYg-J8-D9Q"/>
+                <constraint firstItem="uYu-se-9ll" firstAttribute="top" secondItem="ykQ-if-uMb" secondAttribute="bottom" constant="21.670000000000002" id="x1f-pB-TuG"/>
+                <constraint firstItem="3Pp-9h-ozl" firstAttribute="centerX" secondItem="EpV-Ym-ygd" secondAttribute="centerX" id="xQL-Ls-sAE"/>
+            </constraints>
+            <point key="canvasLocation" x="103.05343511450381" y="57.04225352112676"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="FansNERTyi" width="25.666666030883789" height="8.6666669845581055"/>
+        <image name="FollowedNERTG" width="51.666667938232422" height="9.6666669845581055"/>
+        <image name="NERT_arrowbackgine" width="21" height="15"/>
+        <image name="fancerNERT" width="42" height="25"/>
+        <image name="followertNERT" width="82" height="25"/>
+        <image name="nowerLognBgf" width="375" height="812"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

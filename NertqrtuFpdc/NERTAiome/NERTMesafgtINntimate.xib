@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NERTMesafgtINntimate" customModule="NertqrtuFpdc" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nowerLognBgf" translatesAutoresizingMaskIntoConstraints="NO" id="vEy-YQ-lzF">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABE-pM-aRW">
+                    <rect key="frame" x="16" y="59" width="30" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="InK-de-R7K"/>
+                        <constraint firstAttribute="height" constant="30" id="pVg-7Y-AYf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="NERT_arrowbackgine">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="turnroundNERT:" destination="-1" eventType="touchUpInside" id="x4U-SP-Yu7"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latest Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ib4-qu-Efa">
+                    <rect key="frame" x="128.66666666666669" y="63" width="135.66666666666669" height="22"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emptyHoliNERT" translatesAutoresizingMaskIntoConstraints="NO" id="ceS-iD-VSN">
+                    <rect key="frame" x="146.66666666666666" y="376" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="WMn-YN-Oeq"/>
+                        <constraint firstAttribute="width" constant="100" id="h4C-ty-5nK"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Messages Yet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHX-Ik-a1M">
+                    <rect key="frame" x="135.33333333333334" y="498" width="122.66666666666666" height="18"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="0.71035289115646261" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nXq-t2-tw2">
+                    <rect key="frame" x="65.666666666666671" y="439" width="20" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="kiV-7b-U8a"/>
+                        <constraint firstAttribute="height" constant="10" id="m3v-6a-t8h"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gyh-OC-0Sm">
+                    <rect key="frame" x="55.666666666666657" y="376" width="40" height="40"/>
+                    <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="6sR-qI-yzK"/>
+                        <constraint firstAttribute="height" constant="40" id="aRs-06-iUZ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="nXq-t2-tw2" firstAttribute="centerX" secondItem="Gyh-OC-0Sm" secondAttribute="centerX" id="0oU-VO-GFu"/>
+                <constraint firstItem="eHX-Ik-a1M" firstAttribute="top" secondItem="ceS-iD-VSN" secondAttribute="bottom" constant="22" id="2y8-6c-kvK"/>
+                <constraint firstItem="ib4-qu-Efa" firstAttribute="centerY" secondItem="ABE-pM-aRW" secondAttribute="centerY" id="4eP-4m-bWJ"/>
+                <constraint firstItem="Gyh-OC-0Sm" firstAttribute="top" secondItem="ceS-iD-VSN" secondAttribute="top" id="6Dv-rl-lue"/>
+                <constraint firstItem="nXq-t2-tw2" firstAttribute="top" secondItem="Gyh-OC-0Sm" secondAttribute="bottom" constant="23" id="8U1-rD-8Rc"/>
+                <constraint firstItem="vEy-YQ-lzF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="9cD-Ws-VWr"/>
+                <constraint firstItem="ABE-pM-aRW" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="CDQ-hP-jvf"/>
+                <constraint firstItem="ceS-iD-VSN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="FTy-zG-dN0"/>
+                <constraint firstItem="vEy-YQ-lzF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="H24-jN-1xr"/>
+                <constraint firstItem="ceS-iD-VSN" firstAttribute="leading" secondItem="Gyh-OC-0Sm" secondAttribute="trailing" constant="50.670000000000002" id="Uzd-6x-TOS"/>
+                <constraint firstItem="ceS-iD-VSN" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="awX-IJ-kpw"/>
+                <constraint firstItem="ABE-pM-aRW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="eAd-zu-Fmp"/>
+                <constraint firstItem="ib4-qu-Efa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eTR-ia-EVC"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vEy-YQ-lzF" secondAttribute="trailing" id="h4J-yn-fbi"/>
+                <constraint firstItem="nXq-t2-tw2" firstAttribute="top" secondItem="Gyh-OC-0Sm" secondAttribute="bottom" constant="23" id="lm1-vK-ABa"/>
+                <constraint firstItem="eHX-Ik-a1M" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="me5-Ji-N5g"/>
+                <constraint firstAttribute="bottom" secondItem="vEy-YQ-lzF" secondAttribute="bottom" id="rwV-MH-C1b"/>
+            </constraints>
+            <point key="canvasLocation" x="100" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="NERT_arrowbackgine" width="21" height="15"/>
+        <image name="emptyHoliNERT" width="127" height="122"/>
+        <image name="nowerLognBgf" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

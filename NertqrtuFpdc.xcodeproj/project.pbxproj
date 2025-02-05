@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0488A95F2D23A13D000324C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488A9592D23A13D000324C3 /* AppDelegate.swift */; };
+		0488A9602D23A13D000324C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0488A95A2D23A13D000324C3 /* Assets.xcassets */; };
+		0488A9622D23A13D000324C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0488A95D2D23A13D000324C3 /* LaunchScreen.storyboard */; };
+		0488A9652D23C85D000324C3 /* NERTShipultimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488A9632D23C85D000324C3 /* NERTShipultimate.swift */; };
+		0488A9662D23C85D000324C3 /* NERTShipultimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0488A9642D23C85D000324C3 /* NERTShipultimate.xib */; };
+		0488A9692D23CEAF000324C3 /* NERTSioinltimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488A9672D23CEAF000324C3 /* NERTSioinltimate.swift */; };
+		0488A96A2D23CEAF000324C3 /* NERTSioinltimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0488A9682D23CEAF000324C3 /* NERTSioinltimate.xib */; };
+		0488A96D2D23DC65000324C3 /* NERTELUAltimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488A96B2D23DC65000324C3 /* NERTELUAltimate.swift */; };
+		0488A96E2D23DC65000324C3 /* NERTELUAltimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0488A96C2D23DC65000324C3 /* NERTELUAltimate.xib */; };
+		0488A9722D23FCB8000324C3 /* NERTPlazatimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488A9702D23FCB8000324C3 /* NERTPlazatimate.swift */; };
+		0488A9732D23FCB8000324C3 /* NERTPlazatimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0488A9712D23FCB8000324C3 /* NERTPlazatimate.xib */; };
+		0488A9772D23FCF9000324C3 /* NERTMineltimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488A9752D23FCF9000324C3 /* NERTMineltimate.swift */; };
+		0488A9782D23FCF9000324C3 /* NERTMineltimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0488A9762D23FCF9000324C3 /* NERTMineltimate.xib */; };
+		0488A97C2D23FD11000324C3 /* NERTAiHomeNoinltimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488A97A2D23FD11000324C3 /* NERTAiHomeNoinltimate.swift */; };
+		0488A97D2D23FD11000324C3 /* NERTAiHomeNoinltimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0488A97B2D23FD11000324C3 /* NERTAiHomeNoinltimate.xib */; };
+		0488A9812D240857000324C3 /* NERTAiSHowingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488A97F2D240857000324C3 /* NERTAiSHowingCell.swift */; };
+		0488A9822D240857000324C3 /* NERTAiSHowingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0488A9802D240857000324C3 /* NERTAiSHowingCell.xib */; };
+		0488A9862D241CEA000324C3 /* NERTAiFestivatList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0488A9852D241CEA000324C3 /* NERTAiFestivatList.plist */; };
+		0488A9882D2423EE000324C3 /* NERTAiFestivatUserList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0488A9872D2423EE000324C3 /* NERTAiFestivatUserList.plist */; };
+		04B37C4B2D26298000F2A76B /* NERTAIIChaaNointimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37C492D26298000F2A76B /* NERTAIIChaaNointimate.swift */; };
+		04B37C4C2D26298000F2A76B /* NERTAIIChaaNointimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B37C4A2D26298000F2A76B /* NERTAIIChaaNointimate.xib */; };
+		04B37C502D26373300F2A76B /* NERTBuildBotNointimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37C4E2D26373300F2A76B /* NERTBuildBotNointimate.swift */; };
+		04B37C512D26373300F2A76B /* NERTBuildBotNointimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B37C4F2D26373300F2A76B /* NERTBuildBotNointimate.xib */; };
+		04B37C542D26394700F2A76B /* NERTBuildAiTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37C522D26394700F2A76B /* NERTBuildAiTypeCell.swift */; };
+		04B37C552D26394700F2A76B /* NERTBuildAiTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B37C532D26394700F2A76B /* NERTBuildAiTypeCell.xib */; };
+		04B37C582D263FBF00F2A76B /* NERTBuildAiProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37C562D263FBF00F2A76B /* NERTBuildAiProfileCell.swift */; };
+		04B37C592D263FBF00F2A76B /* NERTBuildAiProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B37C572D263FBF00F2A76B /* NERTBuildAiProfileCell.xib */; };
+		04B37C5C2D2643E700F2A76B /* NERTBuildPayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37C5A2D2643E700F2A76B /* NERTBuildPayCell.swift */; };
+		04B37C5D2D2643E700F2A76B /* NERTBuildPayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B37C5B2D2643E700F2A76B /* NERTBuildPayCell.xib */; };
+		04B37C602D265DA200F2A76B /* NERTFerorttimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37C5E2D265DA200F2A76B /* NERTFerorttimate.swift */; };
+		04B37C612D265DA200F2A76B /* NERTFerorttimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B37C5F2D265DA200F2A76B /* NERTFerorttimate.xib */; };
+		04B37C642D2662DF00F2A76B /* NERTPayinertimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37C622D2662DF00F2A76B /* NERTPayinertimate.swift */; };
+		04B37C652D2662DF00F2A76B /* NERTPayinertimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B37C632D2662DF00F2A76B /* NERTPayinertimate.xib */; };
+		04B37C682D26709700F2A76B /* NERTPlazeTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37C662D26709700F2A76B /* NERTPlazeTopCell.swift */; };
+		04B37C692D26709700F2A76B /* NERTPlazeTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B37C672D26709700F2A76B /* NERTPlazeTopCell.xib */; };
+		04B37C6C2D26716B00F2A76B /* NERTPlazeDymnimCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37C6A2D26716B00F2A76B /* NERTPlazeDymnimCell.swift */; };
+		04B37C6D2D26716B00F2A76B /* NERTPlazeDymnimCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B37C6B2D26716B00F2A76B /* NERTPlazeDymnimCell.xib */; };
+		04B37C712D2679EF00F2A76B /* NERTPlazeDymINntimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37C6F2D2679EF00F2A76B /* NERTPlazeDymINntimate.swift */; };
+		04B37C722D2679EF00F2A76B /* NERTPlazeDymINntimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B37C702D2679EF00F2A76B /* NERTPlazeDymINntimate.xib */; };
+		04B37C762D26842200F2A76B /* NERTPlazePostINntimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37C742D26842200F2A76B /* NERTPlazePostINntimate.swift */; };
+		04B37C772D26842200F2A76B /* NERTPlazePostINntimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B37C752D26842200F2A76B /* NERTPlazePostINntimate.xib */; };
+		04B37C7A2D26870A00F2A76B /* NERTMesafgtINntimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37C782D26870A00F2A76B /* NERTMesafgtINntimate.swift */; };
+		04B37C7B2D26870A00F2A76B /* NERTMesafgtINntimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B37C792D26870A00F2A76B /* NERTMesafgtINntimate.xib */; };
+		04B37C7F2D2689A300F2A76B /* NERTChaafWithUsertimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37C7D2D2689A300F2A76B /* NERTChaafWithUsertimate.swift */; };
+		04B37C802D2689A300F2A76B /* NERTChaafWithUsertimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B37C7E2D2689A300F2A76B /* NERTChaafWithUsertimate.xib */; };
+		04B37C822D268B9800F2A76B /* NERTChaavwCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37C812D268B9800F2A76B /* NERTChaavwCell.swift */; };
+		04B37C852D26A23400F2A76B /* NERTUhijcetimete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B37C832D26A23400F2A76B /* NERTUhijcetimete.swift */; };
+		04B37C862D26A23400F2A76B /* NERTUhijcetimete.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B37C842D26A23400F2A76B /* NERTUhijcetimete.xib */; };
+		04DCD9E62D2777D6006B9EBF /* NERTPserbtingtimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCD9E42D2777D6006B9EBF /* NERTPserbtingtimate.swift */; };
+		04DCD9E72D2777D6006B9EBF /* NERTPserbtingtimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DCD9E52D2777D6006B9EBF /* NERTPserbtingtimate.xib */; };
+		04DCD9EA2D277D6D006B9EBF /* NERTReplaceInfotimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCD9E82D277D6D006B9EBF /* NERTReplaceInfotimate.swift */; };
+		04DCD9EB2D277D6D006B9EBF /* NERTReplaceInfotimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DCD9E92D277D6D006B9EBF /* NERTReplaceInfotimate.xib */; };
+		04DCD9EE2D2780D7006B9EBF /* NERTAboiutrInfotimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DCD9ED2D2780D7006B9EBF /* NERTAboiutrInfotimate.xib */; };
+		04DCD9EF2D2780D7006B9EBF /* NERTAboiutrInfotimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCD9EC2D2780D7006B9EBF /* NERTAboiutrInfotimate.swift */; };
+		04DCD9F22D278272006B9EBF /* NERTRefkationInfotimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCD9F02D278272006B9EBF /* NERTRefkationInfotimate.swift */; };
+		04DCD9F32D278272006B9EBF /* NERTRefkationInfotimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DCD9F12D278272006B9EBF /* NERTRefkationInfotimate.xib */; };
+		04DCD9F62D27844D006B9EBF /* NERTRcontacttimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DCD9F52D27844D006B9EBF /* NERTRcontacttimate.xib */; };
+		04DCD9F72D27844D006B9EBF /* NERTRcontacttimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCD9F42D27844D006B9EBF /* NERTRcontacttimate.swift */; };
+		04DCD9F92D27C4ED006B9EBF /* CustomNERTRobert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCD9F82D27C4ED006B9EBF /* CustomNERTRobert.swift */; };
+		04DCD9FB2D27CC4B006B9EBF /* NERTLoadingDertacttimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCD9FA2D27CC4B006B9EBF /* NERTLoadingDertacttimate.swift */; };
+		04E543502D2E49D2006184BC /* NERTArheartwarming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5434F2D2E49D2006184BC /* NERTArheartwarming.swift */; };
+		04E543522D2E49F3006184BC /* NERTinnerwarming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E543512D2E49F3006184BC /* NERTinnerwarming.swift */; };
+		04E543542D2E4A14006184BC /* NERPagetwarming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E543532D2E4A14006184BC /* NERPagetwarming.swift */; };
+		04E833882D38AC9300EF6AC5 /* NERTLaongchItTimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E833872D38AC9300EF6AC5 /* NERTLaongchItTimate.swift */; };
+		04E8338B2D38B00100EF6AC5 /* NERTinsinintTimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E833892D38B00100EF6AC5 /* NERTinsinintTimate.swift */; };
+		04E8338E2D38B02C00EF6AC5 /* NERTLaosdderTimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8338D2D38B02C00EF6AC5 /* NERTLaosdderTimate.swift */; };
+		1130631AA7E3C8BB5922BC8F /* Pods_NertqrtuFpdc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1CFC340780B4592F60C3F6 /* Pods_NertqrtuFpdc.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0439A6642D52F77D004C86C2 /* NertqrtuFpdc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NertqrtuFpdc.entitlements; sourceTree = "<group>"; };
+		0488A9412D23A01A000324C3 /* NertqrtuFpdc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NertqrtuFpdc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0488A9592D23A13D000324C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0488A95A2D23A13D000324C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0488A95B2D23A13D000324C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0488A95C2D23A13D000324C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0488A9632D23C85D000324C3 /* NERTShipultimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTShipultimate.swift; sourceTree = "<group>"; };
+		0488A9642D23C85D000324C3 /* NERTShipultimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTShipultimate.xib; sourceTree = "<group>"; };
+		0488A9672D23CEAF000324C3 /* NERTSioinltimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTSioinltimate.swift; sourceTree = "<group>"; };
+		0488A9682D23CEAF000324C3 /* NERTSioinltimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTSioinltimate.xib; sourceTree = "<group>"; };
+		0488A96B2D23DC65000324C3 /* NERTELUAltimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTELUAltimate.swift; sourceTree = "<group>"; };
+		0488A96C2D23DC65000324C3 /* NERTELUAltimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTELUAltimate.xib; sourceTree = "<group>"; };
+		0488A9702D23FCB8000324C3 /* NERTPlazatimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTPlazatimate.swift; sourceTree = "<group>"; };
+		0488A9712D23FCB8000324C3 /* NERTPlazatimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTPlazatimate.xib; sourceTree = "<group>"; };
+		0488A9752D23FCF9000324C3 /* NERTMineltimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTMineltimate.swift; sourceTree = "<group>"; };
+		0488A9762D23FCF9000324C3 /* NERTMineltimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTMineltimate.xib; sourceTree = "<group>"; };
+		0488A97A2D23FD11000324C3 /* NERTAiHomeNoinltimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTAiHomeNoinltimate.swift; sourceTree = "<group>"; };
+		0488A97B2D23FD11000324C3 /* NERTAiHomeNoinltimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTAiHomeNoinltimate.xib; sourceTree = "<group>"; };
+		0488A97F2D240857000324C3 /* NERTAiSHowingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTAiSHowingCell.swift; sourceTree = "<group>"; };
+		0488A9802D240857000324C3 /* NERTAiSHowingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTAiSHowingCell.xib; sourceTree = "<group>"; };
+		0488A9852D241CEA000324C3 /* NERTAiFestivatList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NERTAiFestivatList.plist; sourceTree = "<group>"; };
+		0488A9872D2423EE000324C3 /* NERTAiFestivatUserList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NERTAiFestivatUserList.plist; sourceTree = "<group>"; };
+		04B37C492D26298000F2A76B /* NERTAIIChaaNointimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTAIIChaaNointimate.swift; sourceTree = "<group>"; };
+		04B37C4A2D26298000F2A76B /* NERTAIIChaaNointimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTAIIChaaNointimate.xib; sourceTree = "<group>"; };
+		04B37C4E2D26373300F2A76B /* NERTBuildBotNointimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTBuildBotNointimate.swift; sourceTree = "<group>"; };
+		04B37C4F2D26373300F2A76B /* NERTBuildBotNointimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTBuildBotNointimate.xib; sourceTree = "<group>"; };
+		04B37C522D26394700F2A76B /* NERTBuildAiTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTBuildAiTypeCell.swift; sourceTree = "<group>"; };
+		04B37C532D26394700F2A76B /* NERTBuildAiTypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTBuildAiTypeCell.xib; sourceTree = "<group>"; };
+		04B37C562D263FBF00F2A76B /* NERTBuildAiProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTBuildAiProfileCell.swift; sourceTree = "<group>"; };
+		04B37C572D263FBF00F2A76B /* NERTBuildAiProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTBuildAiProfileCell.xib; sourceTree = "<group>"; };
+		04B37C5A2D2643E700F2A76B /* NERTBuildPayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTBuildPayCell.swift; sourceTree = "<group>"; };
+		04B37C5B2D2643E700F2A76B /* NERTBuildPayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTBuildPayCell.xib; sourceTree = "<group>"; };
+		04B37C5E2D265DA200F2A76B /* NERTFerorttimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTFerorttimate.swift; sourceTree = "<group>"; };
+		04B37C5F2D265DA200F2A76B /* NERTFerorttimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTFerorttimate.xib; sourceTree = "<group>"; };
+		04B37C622D2662DF00F2A76B /* NERTPayinertimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTPayinertimate.swift; sourceTree = "<group>"; };
+		04B37C632D2662DF00F2A76B /* NERTPayinertimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTPayinertimate.xib; sourceTree = "<group>"; };
+		04B37C662D26709700F2A76B /* NERTPlazeTopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTPlazeTopCell.swift; sourceTree = "<group>"; };
+		04B37C672D26709700F2A76B /* NERTPlazeTopCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTPlazeTopCell.xib; sourceTree = "<group>"; };
+		04B37C6A2D26716B00F2A76B /* NERTPlazeDymnimCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTPlazeDymnimCell.swift; sourceTree = "<group>"; };
+		04B37C6B2D26716B00F2A76B /* NERTPlazeDymnimCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTPlazeDymnimCell.xib; sourceTree = "<group>"; };
+		04B37C6F2D2679EF00F2A76B /* NERTPlazeDymINntimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTPlazeDymINntimate.swift; sourceTree = "<group>"; };
+		04B37C702D2679EF00F2A76B /* NERTPlazeDymINntimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTPlazeDymINntimate.xib; sourceTree = "<group>"; };
+		04B37C742D26842200F2A76B /* NERTPlazePostINntimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTPlazePostINntimate.swift; sourceTree = "<group>"; };
+		04B37C752D26842200F2A76B /* NERTPlazePostINntimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTPlazePostINntimate.xib; sourceTree = "<group>"; };
+		04B37C782D26870A00F2A76B /* NERTMesafgtINntimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTMesafgtINntimate.swift; sourceTree = "<group>"; };
+		04B37C792D26870A00F2A76B /* NERTMesafgtINntimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTMesafgtINntimate.xib; sourceTree = "<group>"; };
+		04B37C7D2D2689A300F2A76B /* NERTChaafWithUsertimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTChaafWithUsertimate.swift; sourceTree = "<group>"; };
+		04B37C7E2D2689A300F2A76B /* NERTChaafWithUsertimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTChaafWithUsertimate.xib; sourceTree = "<group>"; };
+		04B37C812D268B9800F2A76B /* NERTChaavwCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTChaavwCell.swift; sourceTree = "<group>"; };
+		04B37C832D26A23400F2A76B /* NERTUhijcetimete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTUhijcetimete.swift; sourceTree = "<group>"; };
+		04B37C842D26A23400F2A76B /* NERTUhijcetimete.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTUhijcetimete.xib; sourceTree = "<group>"; };
+		04DCD9E42D2777D6006B9EBF /* NERTPserbtingtimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTPserbtingtimate.swift; sourceTree = "<group>"; };
+		04DCD9E52D2777D6006B9EBF /* NERTPserbtingtimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTPserbtingtimate.xib; sourceTree = "<group>"; };
+		04DCD9E82D277D6D006B9EBF /* NERTReplaceInfotimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTReplaceInfotimate.swift; sourceTree = "<group>"; };
+		04DCD9E92D277D6D006B9EBF /* NERTReplaceInfotimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTReplaceInfotimate.xib; sourceTree = "<group>"; };
+		04DCD9EC2D2780D7006B9EBF /* NERTAboiutrInfotimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTAboiutrInfotimate.swift; sourceTree = "<group>"; };
+		04DCD9ED2D2780D7006B9EBF /* NERTAboiutrInfotimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTAboiutrInfotimate.xib; sourceTree = "<group>"; };
+		04DCD9F02D278272006B9EBF /* NERTRefkationInfotimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTRefkationInfotimate.swift; sourceTree = "<group>"; };
+		04DCD9F12D278272006B9EBF /* NERTRefkationInfotimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTRefkationInfotimate.xib; sourceTree = "<group>"; };
+		04DCD9F42D27844D006B9EBF /* NERTRcontacttimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTRcontacttimate.swift; sourceTree = "<group>"; };
+		04DCD9F52D27844D006B9EBF /* NERTRcontacttimate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NERTRcontacttimate.xib; sourceTree = "<group>"; };
+		04DCD9F82D27C4ED006B9EBF /* CustomNERTRobert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNERTRobert.swift; sourceTree = "<group>"; };
+		04DCD9FA2D27CC4B006B9EBF /* NERTLoadingDertacttimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTLoadingDertacttimate.swift; sourceTree = "<group>"; };
+		04E5434F2D2E49D2006184BC /* NERTArheartwarming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTArheartwarming.swift; sourceTree = "<group>"; };
+		04E543512D2E49F3006184BC /* NERTinnerwarming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTinnerwarming.swift; sourceTree = "<group>"; };
+		04E543532D2E4A14006184BC /* NERPagetwarming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERPagetwarming.swift; sourceTree = "<group>"; };
+		04E833872D38AC9300EF6AC5 /* NERTLaongchItTimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTLaongchItTimate.swift; sourceTree = "<group>"; };
+		04E833892D38B00100EF6AC5 /* NERTinsinintTimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTinsinintTimate.swift; sourceTree = "<group>"; };
+		04E8338D2D38B02C00EF6AC5 /* NERTLaosdderTimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NERTLaosdderTimate.swift; sourceTree = "<group>"; };
+		110BD527894BEC6CADA25FE4 /* Pods-NertqrtuFpdc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NertqrtuFpdc.debug.xcconfig"; path = "Target Support Files/Pods-NertqrtuFpdc/Pods-NertqrtuFpdc.debug.xcconfig"; sourceTree = "<group>"; };
+		7A97E3354E19D88CDE2FCAA6 /* Pods-NertqrtuFpdc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NertqrtuFpdc.release.xcconfig"; path = "Target Support Files/Pods-NertqrtuFpdc/Pods-NertqrtuFpdc.release.xcconfig"; sourceTree = "<group>"; };
+		DB1CFC340780B4592F60C3F6 /* Pods_NertqrtuFpdc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NertqrtuFpdc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0488A93E2D23A01A000324C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1130631AA7E3C8BB5922BC8F /* Pods_NertqrtuFpdc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0488A9382D23A01A000324C3 = {
+			isa = PBXGroup;
+			children = (
+				0488A95E2D23A13D000324C3 /* NertqrtuFpdc */,
+				0488A9422D23A01A000324C3 /* Products */,
+				67C746043A37F538F647AB91 /* Pods */,
+				9991FAF78789B3145F0B20D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0488A9422D23A01A000324C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0488A9412D23A01A000324C3 /* NertqrtuFpdc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0488A95E2D23A13D000324C3 /* NertqrtuFpdc */ = {
+			isa = PBXGroup;
+			children = (
+				0439A6642D52F77D004C86C2 /* NertqrtuFpdc.entitlements */,
+				04B37C7C2D26898D00F2A76B /* NERTUser */,
+				0488A9792D23FCFD000324C3 /* NERTcenter */,
+				0488A9742D23FCC9000324C3 /* NERTMine */,
+				0488A96F2D23FCA1000324C3 /* NERTAiome */,
+				0488A9592D23A13D000324C3 /* AppDelegate.swift */,
+				0488A95A2D23A13D000324C3 /* Assets.xcassets */,
+				0488A95B2D23A13D000324C3 /* Info.plist */,
+				0488A95D2D23A13D000324C3 /* LaunchScreen.storyboard */,
+				0488A9632D23C85D000324C3 /* NERTShipultimate.swift */,
+				0488A9642D23C85D000324C3 /* NERTShipultimate.xib */,
+				0488A9672D23CEAF000324C3 /* NERTSioinltimate.swift */,
+				0488A9682D23CEAF000324C3 /* NERTSioinltimate.xib */,
+				0488A96B2D23DC65000324C3 /* NERTELUAltimate.swift */,
+				0488A96C2D23DC65000324C3 /* NERTELUAltimate.xib */,
+				04B37C5E2D265DA200F2A76B /* NERTFerorttimate.swift */,
+				04B37C5F2D265DA200F2A76B /* NERTFerorttimate.xib */,
+				04B37C622D2662DF00F2A76B /* NERTPayinertimate.swift */,
+				04B37C632D2662DF00F2A76B /* NERTPayinertimate.xib */,
+				04DCD9F82D27C4ED006B9EBF /* CustomNERTRobert.swift */,
+				04DCD9FA2D27CC4B006B9EBF /* NERTLoadingDertacttimate.swift */,
+			);
+			path = NertqrtuFpdc;
+			sourceTree = "<group>";
+		};
+		0488A96F2D23FCA1000324C3 /* NERTAiome */ = {
+			isa = PBXGroup;
+			children = (
+				04B37C4D2D26371B00F2A76B /* BuildBot */,
+				04B37C482D26292100F2A76B /* NERTAIChat */,
+				0488A97E2D240839000324C3 /* AiNERTCell */,
+				0488A97A2D23FD11000324C3 /* NERTAiHomeNoinltimate.swift */,
+				0488A97B2D23FD11000324C3 /* NERTAiHomeNoinltimate.xib */,
+				0488A9852D241CEA000324C3 /* NERTAiFestivatList.plist */,
+				0488A9872D2423EE000324C3 /* NERTAiFestivatUserList.plist */,
+				04B37C782D26870A00F2A76B /* NERTMesafgtINntimate.swift */,
+				04B37C792D26870A00F2A76B /* NERTMesafgtINntimate.xib */,
+			);
+			path = NERTAiome;
+			sourceTree = "<group>";
+		};
+		0488A9742D23FCC9000324C3 /* NERTMine */ = {
+			isa = PBXGroup;
+			children = (
+				0488A9752D23FCF9000324C3 /* NERTMineltimate.swift */,
+				0488A9762D23FCF9000324C3 /* NERTMineltimate.xib */,
+				04DCD9E42D2777D6006B9EBF /* NERTPserbtingtimate.swift */,
+				04DCD9E52D2777D6006B9EBF /* NERTPserbtingtimate.xib */,
+				04DCD9E82D277D6D006B9EBF /* NERTReplaceInfotimate.swift */,
+				04DCD9E92D277D6D006B9EBF /* NERTReplaceInfotimate.xib */,
+				04DCD9EC2D2780D7006B9EBF /* NERTAboiutrInfotimate.swift */,
+				04DCD9ED2D2780D7006B9EBF /* NERTAboiutrInfotimate.xib */,
+				04DCD9F02D278272006B9EBF /* NERTRefkationInfotimate.swift */,
+				04DCD9F12D278272006B9EBF /* NERTRefkationInfotimate.xib */,
+				04E833872D38AC9300EF6AC5 /* NERTLaongchItTimate.swift */,
+				04E833892D38B00100EF6AC5 /* NERTinsinintTimate.swift */,
+				04E8338D2D38B02C00EF6AC5 /* NERTLaosdderTimate.swift */,
+			);
+			path = NERTMine;
+			sourceTree = "<group>";
+		};
+		0488A9792D23FCFD000324C3 /* NERTcenter */ = {
+			isa = PBXGroup;
+			children = (
+				04B37C732D26841500F2A76B /* NERTPOst */,
+				04B37C6E2D2679C300F2A76B /* DefailNERT */,
+				0488A9702D23FCB8000324C3 /* NERTPlazatimate.swift */,
+				0488A9712D23FCB8000324C3 /* NERTPlazatimate.xib */,
+				04B37C662D26709700F2A76B /* NERTPlazeTopCell.swift */,
+				04B37C672D26709700F2A76B /* NERTPlazeTopCell.xib */,
+				04B37C6A2D26716B00F2A76B /* NERTPlazeDymnimCell.swift */,
+				04B37C6B2D26716B00F2A76B /* NERTPlazeDymnimCell.xib */,
+				04E543532D2E4A14006184BC /* NERPagetwarming.swift */,
+			);
+			path = NERTcenter;
+			sourceTree = "<group>";
+		};
+		0488A97E2D240839000324C3 /* AiNERTCell */ = {
+			isa = PBXGroup;
+			children = (
+				0488A97F2D240857000324C3 /* NERTAiSHowingCell.swift */,
+				0488A9802D240857000324C3 /* NERTAiSHowingCell.xib */,
+			);
+			path = AiNERTCell;
+			sourceTree = "<group>";
+		};
+		04B37C482D26292100F2A76B /* NERTAIChat */ = {
+			isa = PBXGroup;
+			children = (
+				04B37C492D26298000F2A76B /* NERTAIIChaaNointimate.swift */,
+				04B37C4A2D26298000F2A76B /* NERTAIIChaaNointimate.xib */,
+			);
+			path = NERTAIChat;
+			sourceTree = "<group>";
+		};
+		04B37C4D2D26371B00F2A76B /* BuildBot */ = {
+			isa = PBXGroup;
+			children = (
+				04B37C4E2D26373300F2A76B /* NERTBuildBotNointimate.swift */,
+				04B37C4F2D26373300F2A76B /* NERTBuildBotNointimate.xib */,
+				04B37C522D26394700F2A76B /* NERTBuildAiTypeCell.swift */,
+				04B37C532D26394700F2A76B /* NERTBuildAiTypeCell.xib */,
+				04B37C562D263FBF00F2A76B /* NERTBuildAiProfileCell.swift */,
+				04B37C572D263FBF00F2A76B /* NERTBuildAiProfileCell.xib */,
+				04B37C5A2D2643E700F2A76B /* NERTBuildPayCell.swift */,
+				04B37C5B2D2643E700F2A76B /* NERTBuildPayCell.xib */,
+			);
+			path = BuildBot;
+			sourceTree = "<group>";
+		};
+		04B37C6E2D2679C300F2A76B /* DefailNERT */ = {
+			isa = PBXGroup;
+			children = (
+				04B37C6F2D2679EF00F2A76B /* NERTPlazeDymINntimate.swift */,
+				04B37C702D2679EF00F2A76B /* NERTPlazeDymINntimate.xib */,
+			);
+			path = DefailNERT;
+			sourceTree = "<group>";
+		};
+		04B37C732D26841500F2A76B /* NERTPOst */ = {
+			isa = PBXGroup;
+			children = (
+				04B37C742D26842200F2A76B /* NERTPlazePostINntimate.swift */,
+				04B37C752D26842200F2A76B /* NERTPlazePostINntimate.xib */,
+			);
+			path = NERTPOst;
+			sourceTree = "<group>";
+		};
+		04B37C7C2D26898D00F2A76B /* NERTUser */ = {
+			isa = PBXGroup;
+			children = (
+				04B37C7D2D2689A300F2A76B /* NERTChaafWithUsertimate.swift */,
+				04B37C7E2D2689A300F2A76B /* NERTChaafWithUsertimate.xib */,
+				04B37C812D268B9800F2A76B /* NERTChaavwCell.swift */,
+				04B37C832D26A23400F2A76B /* NERTUhijcetimete.swift */,
+				04B37C842D26A23400F2A76B /* NERTUhijcetimete.xib */,
+				04DCD9F42D27844D006B9EBF /* NERTRcontacttimate.swift */,
+				04DCD9F52D27844D006B9EBF /* NERTRcontacttimate.xib */,
+				04E5434F2D2E49D2006184BC /* NERTArheartwarming.swift */,
+				04E543512D2E49F3006184BC /* NERTinnerwarming.swift */,
+			);
+			path = NERTUser;
+			sourceTree = "<group>";
+		};
+		67C746043A37F538F647AB91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				110BD527894BEC6CADA25FE4 /* Pods-NertqrtuFpdc.debug.xcconfig */,
+				7A97E3354E19D88CDE2FCAA6 /* Pods-NertqrtuFpdc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9991FAF78789B3145F0B20D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB1CFC340780B4592F60C3F6 /* Pods_NertqrtuFpdc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0488A9402D23A01A000324C3 /* NertqrtuFpdc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0488A9542D23A01C000324C3 /* Build configuration list for PBXNativeTarget "NertqrtuFpdc" */;
+			buildPhases = (
+				098534CA8A3F72F7069EEEDD /* [CP] Check Pods Manifest.lock */,
+				0488A93D2D23A01A000324C3 /* Sources */,
+				0488A93E2D23A01A000324C3 /* Frameworks */,
+				0488A93F2D23A01A000324C3 /* Resources */,
+				B7100E99200BDC427E2F8625 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NertqrtuFpdc;
+			productName = NertqrtuFpdc;
+			productReference = 0488A9412D23A01A000324C3 /* NertqrtuFpdc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0488A9392D23A01A000324C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = NERT;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					0488A9402D23A01A000324C3 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 0488A93C2D23A01A000324C3 /* Build configuration list for PBXProject "NertqrtuFpdc" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0488A9382D23A01A000324C3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0488A9422D23A01A000324C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0488A9402D23A01A000324C3 /* NertqrtuFpdc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0488A93F2D23A01A000324C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B37C512D26373300F2A76B /* NERTBuildBotNointimate.xib in Resources */,
+				0488A97D2D23FD11000324C3 /* NERTAiHomeNoinltimate.xib in Resources */,
+				0488A96A2D23CEAF000324C3 /* NERTSioinltimate.xib in Resources */,
+				04B37C552D26394700F2A76B /* NERTBuildAiTypeCell.xib in Resources */,
+				0488A9662D23C85D000324C3 /* NERTShipultimate.xib in Resources */,
+				04B37C772D26842200F2A76B /* NERTPlazePostINntimate.xib in Resources */,
+				04B37C4C2D26298000F2A76B /* NERTAIIChaaNointimate.xib in Resources */,
+				04B37C7B2D26870A00F2A76B /* NERTMesafgtINntimate.xib in Resources */,
+				04DCD9F32D278272006B9EBF /* NERTRefkationInfotimate.xib in Resources */,
+				0488A9822D240857000324C3 /* NERTAiSHowingCell.xib in Resources */,
+				04DCD9EE2D2780D7006B9EBF /* NERTAboiutrInfotimate.xib in Resources */,
+				04B37C6D2D26716B00F2A76B /* NERTPlazeDymnimCell.xib in Resources */,
+				0488A9602D23A13D000324C3 /* Assets.xcassets in Resources */,
+				04B37C5D2D2643E700F2A76B /* NERTBuildPayCell.xib in Resources */,
+				04B37C612D265DA200F2A76B /* NERTFerorttimate.xib in Resources */,
+				04B37C692D26709700F2A76B /* NERTPlazeTopCell.xib in Resources */,
+				04DCD9F62D27844D006B9EBF /* NERTRcontacttimate.xib in Resources */,
+				04B37C862D26A23400F2A76B /* NERTUhijcetimete.xib in Resources */,
+				0488A9782D23FCF9000324C3 /* NERTMineltimate.xib in Resources */,
+				04B37C802D2689A300F2A76B /* NERTChaafWithUsertimate.xib in Resources */,
+				04DCD9EB2D277D6D006B9EBF /* NERTReplaceInfotimate.xib in Resources */,
+				04DCD9E72D2777D6006B9EBF /* NERTPserbtingtimate.xib in Resources */,
+				0488A96E2D23DC65000324C3 /* NERTELUAltimate.xib in Resources */,
+				04B37C592D263FBF00F2A76B /* NERTBuildAiProfileCell.xib in Resources */,
+				04B37C722D2679EF00F2A76B /* NERTPlazeDymINntimate.xib in Resources */,
+				04B37C652D2662DF00F2A76B /* NERTPayinertimate.xib in Resources */,
+				0488A9732D23FCB8000324C3 /* NERTPlazatimate.xib in Resources */,
+				0488A9622D23A13D000324C3 /* LaunchScreen.storyboard in Resources */,
+				0488A9882D2423EE000324C3 /* NERTAiFestivatUserList.plist in Resources */,
+				0488A9862D241CEA000324C3 /* NERTAiFestivatList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		098534CA8A3F72F7069EEEDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NertqrtuFpdc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7100E99200BDC427E2F8625 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NertqrtuFpdc/Pods-NertqrtuFpdc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NertqrtuFpdc/Pods-NertqrtuFpdc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NertqrtuFpdc/Pods-NertqrtuFpdc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0488A93D2D23A01A000324C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B37C6C2D26716B00F2A76B /* NERTPlazeDymnimCell.swift in Sources */,
+				0488A96D2D23DC65000324C3 /* NERTELUAltimate.swift in Sources */,
+				04B37C502D26373300F2A76B /* NERTBuildBotNointimate.swift in Sources */,
+				04E543502D2E49D2006184BC /* NERTArheartwarming.swift in Sources */,
+				0488A97C2D23FD11000324C3 /* NERTAiHomeNoinltimate.swift in Sources */,
+				04B37C822D268B9800F2A76B /* NERTChaavwCell.swift in Sources */,
+				04E833882D38AC9300EF6AC5 /* NERTLaongchItTimate.swift in Sources */,
+				04B37C542D26394700F2A76B /* NERTBuildAiTypeCell.swift in Sources */,
+				0488A9722D23FCB8000324C3 /* NERTPlazatimate.swift in Sources */,
+				04DCD9F22D278272006B9EBF /* NERTRefkationInfotimate.swift in Sources */,
+				04B37C7A2D26870A00F2A76B /* NERTMesafgtINntimate.swift in Sources */,
+				04E8338B2D38B00100EF6AC5 /* NERTinsinintTimate.swift in Sources */,
+				04DCD9EA2D277D6D006B9EBF /* NERTReplaceInfotimate.swift in Sources */,
+				0488A9772D23FCF9000324C3 /* NERTMineltimate.swift in Sources */,
+				04B37C602D265DA200F2A76B /* NERTFerorttimate.swift in Sources */,
+				04B37C5C2D2643E700F2A76B /* NERTBuildPayCell.swift in Sources */,
+				0488A9812D240857000324C3 /* NERTAiSHowingCell.swift in Sources */,
+				04B37C682D26709700F2A76B /* NERTPlazeTopCell.swift in Sources */,
+				04B37C582D263FBF00F2A76B /* NERTBuildAiProfileCell.swift in Sources */,
+				04B37C712D2679EF00F2A76B /* NERTPlazeDymINntimate.swift in Sources */,
+				0488A95F2D23A13D000324C3 /* AppDelegate.swift in Sources */,
+				04B37C7F2D2689A300F2A76B /* NERTChaafWithUsertimate.swift in Sources */,
+				04E8338E2D38B02C00EF6AC5 /* NERTLaosdderTimate.swift in Sources */,
+				04B37C852D26A23400F2A76B /* NERTUhijcetimete.swift in Sources */,
+				04DCD9F92D27C4ED006B9EBF /* CustomNERTRobert.swift in Sources */,
+				0488A9692D23CEAF000324C3 /* NERTSioinltimate.swift in Sources */,
+				04DCD9FB2D27CC4B006B9EBF /* NERTLoadingDertacttimate.swift in Sources */,
+				04B37C762D26842200F2A76B /* NERTPlazePostINntimate.swift in Sources */,
+				04DCD9F72D27844D006B9EBF /* NERTRcontacttimate.swift in Sources */,
+				04B37C642D2662DF00F2A76B /* NERTPayinertimate.swift in Sources */,
+				04E543522D2E49F3006184BC /* NERTinnerwarming.swift in Sources */,
+				04B37C4B2D26298000F2A76B /* NERTAIIChaaNointimate.swift in Sources */,
+				04E543542D2E4A14006184BC /* NERPagetwarming.swift in Sources */,
+				0488A9652D23C85D000324C3 /* NERTShipultimate.swift in Sources */,
+				04DCD9E62D2777D6006B9EBF /* NERTPserbtingtimate.swift in Sources */,
+				04DCD9EF2D2780D7006B9EBF /* NERTAboiutrInfotimate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0488A95D2D23A13D000324C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0488A95C2D23A13D000324C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0488A9552D23A01C000324C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110BD527894BEC6CADA25FE4 /* Pods-NertqrtuFpdc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NertqrtuFpdc/NertqrtuFpdc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NertqrtuFpdc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HoliHup;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos, upload avatars, upload community photos, make audio and video calls, HoliUp needs access to your camera permissions";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "HoliHup needs location permissions to make use of the iCloud camera's location functionalities.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "HoliUp needs access to your camera for audio and video calls";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Upload avatar, upload community photos, HoliUp needs access to your album permissions";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nertqrtu.holihup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0488A9562D23A01C000324C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A97E3354E19D88CDE2FCAA6 /* Pods-NertqrtuFpdc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NertqrtuFpdc/NertqrtuFpdc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NertqrtuFpdc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HoliHup;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos, upload avatars, upload community photos, make audio and video calls, HoliUp needs access to your camera permissions";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "HoliHup needs location permissions to make use of the iCloud camera's location functionalities.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "HoliUp needs access to your camera for audio and video calls";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Upload avatar, upload community photos, HoliUp needs access to your album permissions";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nertqrtu.holihup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0488A9572D23A01C000324C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0488A9582D23A01C000324C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0488A93C2D23A01A000324C3 /* Build configuration list for PBXProject "NertqrtuFpdc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0488A9572D23A01C000324C3 /* Debug */,
+				0488A9582D23A01C000324C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0488A9542D23A01C000324C3 /* Build configuration list for PBXNativeTarget "NertqrtuFpdc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0488A9552D23A01C000324C3 /* Debug */,
+				0488A9562D23A01C000324C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0488A9392D23A01A000324C3 /* Project object */;
+}

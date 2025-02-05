@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NERTAiHomeNoinltimate" customModule="NertqrtuFpdc" customModuleProvider="target">
+            <connections>
+                <outlet property="chengSizeNERT" destination="gMp-UG-1AN" id="Eay-I5-EdF"/>
+                <outlet property="festivalActiveDataView" destination="KIV-5f-iCj" id="Aiu-RT-NaC"/>
+                <outlet property="festivalEmotionDataView" destination="ucf-il-QZ1" id="Dnw-Xh-eRT"/>
+                <outlet property="festivalPreperationDataView" destination="IvP-ch-CYv" id="YmQ-hD-zU2"/>
+                <outlet property="festivalQAQDataView" destination="7mR-nm-AFP" id="owT-zL-cmu"/>
+                <outlet property="topCustomROBONERT" destination="ksR-nA-fit" id="U2g-F5-KCV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="never" translatesAutoresizingMaskIntoConstraints="NO" id="8sc-bG-Cqa">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ringballAibg" translatesAutoresizingMaskIntoConstraints="NO" id="gMp-UG-1AN">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="1191"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1191" id="Akd-5a-mWa"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AI1Festival_NERT" translatesAutoresizingMaskIntoConstraints="NO" id="UrH-P1-fSS">
+                            <rect key="frame" x="12" y="483" width="286" height="23"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="23" id="aOk-f3-cOj"/>
+                                <constraint firstAttribute="width" constant="286" id="vMO-f8-XTr"/>
+                            </constraints>
+                        </imageView>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="KIV-5f-iCj" userLabel="1dataNERT">
+                            <rect key="frame" x="0.0" y="514" width="375" height="160"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="160" id="fle-Pw-CDK"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="NLt-jE-WNy">
+                                <size key="itemSize" width="128" height="128"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HoliHuptitlr" translatesAutoresizingMaskIntoConstraints="NO" id="dfL-8c-9gJ">
+                            <rect key="frame" x="122" y="67" width="149" height="39"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="149" id="1am-n2-wvK"/>
+                                <constraint firstAttribute="height" constant="39" id="fFh-sh-m3P"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksR-nA-fit">
+                            <rect key="frame" x="12" y="132" width="351" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="zD0-6w-RO4"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" backgroundImage="customBuNERT"/>
+                            <connections>
+                                <action selector="topInitRoboNERT:" destination="-1" eventType="touchUpInside" id="x6z-Fj-jPK"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AI0Festival_NERT" translatesAutoresizingMaskIntoConstraints="NO" id="77x-iv-NXt">
+                            <rect key="frame" x="12" y="262" width="205" height="23"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="205" id="Vlm-PT-ta2"/>
+                                <constraint firstAttribute="height" constant="23" id="dWU-EK-B0e"/>
+                            </constraints>
+                        </imageView>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="7mR-nm-AFP" userLabel="0dataNERT">
+                            <rect key="frame" x="0.0" y="293" width="375" height="160"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="160" id="nZM-dy-kxg"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Lwg-Tr-TBX">
+                                <size key="itemSize" width="128" height="128"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AI2Festival_NERT" translatesAutoresizingMaskIntoConstraints="NO" id="rXt-hm-dxc">
+                            <rect key="frame" x="12" y="704" width="251" height="23"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="251" id="GVC-cH-2Ea"/>
+                                <constraint firstAttribute="height" constant="23" id="fdY-99-Ant"/>
+                            </constraints>
+                        </imageView>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="IvP-ch-CYv" userLabel="2dataNERT">
+                            <rect key="frame" x="0.0" y="735" width="375" height="160"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="160" id="mgI-XB-1Rx"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="VSe-L2-Nvj">
+                                <size key="itemSize" width="128" height="128"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AI3Festival_NERT" translatesAutoresizingMaskIntoConstraints="NO" id="s4a-SW-PrF">
+                            <rect key="frame" x="12" y="925" width="301" height="23"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="23" id="1cm-fJ-9et"/>
+                                <constraint firstAttribute="width" constant="301" id="ymw-X0-PaV"/>
+                            </constraints>
+                        </imageView>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ucf-il-QZ1" userLabel="3dataNERT">
+                            <rect key="frame" x="0.0" y="956" width="375" height="160"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="160" id="qTg-ID-mCV"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="gYK-P9-f9f">
+                                <size key="itemSize" width="128" height="128"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="KIV-5f-iCj" firstAttribute="leading" secondItem="7mR-nm-AFP" secondAttribute="leading" id="03L-8F-QnH"/>
+                        <constraint firstItem="KIV-5f-iCj" firstAttribute="trailing" secondItem="7mR-nm-AFP" secondAttribute="trailing" id="1XV-n1-nDZ"/>
+                        <constraint firstItem="ksR-nA-fit" firstAttribute="leading" secondItem="Yub-3o-AFp" secondAttribute="leading" constant="12" id="2Yz-SX-hgh"/>
+                        <constraint firstItem="IvP-ch-CYv" firstAttribute="top" secondItem="rXt-hm-dxc" secondAttribute="bottom" constant="8" id="30p-Jl-Y71"/>
+                        <constraint firstItem="rXt-hm-dxc" firstAttribute="leading" secondItem="UrH-P1-fSS" secondAttribute="leading" id="3r3-4T-CDF"/>
+                        <constraint firstItem="dfL-8c-9gJ" firstAttribute="top" secondItem="8sc-bG-Cqa" secondAttribute="top" constant="67" id="4PJ-GM-56b"/>
+                        <constraint firstItem="7mR-nm-AFP" firstAttribute="trailing" secondItem="8sc-bG-Cqa" secondAttribute="trailing" id="57Y-7w-bOi"/>
+                        <constraint firstAttribute="bottom" secondItem="gMp-UG-1AN" secondAttribute="bottom" id="5Hh-At-F0z"/>
+                        <constraint firstItem="s4a-SW-PrF" firstAttribute="leading" secondItem="rXt-hm-dxc" secondAttribute="leading" id="5fr-ix-sGg"/>
+                        <constraint firstItem="ucf-il-QZ1" firstAttribute="leading" secondItem="IvP-ch-CYv" secondAttribute="leading" id="8eb-Va-LSq"/>
+                        <constraint firstItem="UrH-P1-fSS" firstAttribute="top" secondItem="7mR-nm-AFP" secondAttribute="bottom" constant="30" id="8lP-X3-lg8"/>
+                        <constraint firstItem="KIV-5f-iCj" firstAttribute="top" secondItem="UrH-P1-fSS" secondAttribute="bottom" constant="8" id="90x-xA-EpX"/>
+                        <constraint firstItem="ucf-il-QZ1" firstAttribute="top" secondItem="s4a-SW-PrF" secondAttribute="bottom" constant="8" id="AYz-rt-6Rj"/>
+                        <constraint firstItem="gMp-UG-1AN" firstAttribute="leading" secondItem="Yub-3o-AFp" secondAttribute="leading" id="Aaj-Jz-TgQ"/>
+                        <constraint firstItem="7mR-nm-AFP" firstAttribute="leading" secondItem="Yub-3o-AFp" secondAttribute="leading" id="Cx5-xJ-itf"/>
+                        <constraint firstItem="UrH-P1-fSS" firstAttribute="leading" secondItem="77x-iv-NXt" secondAttribute="leading" id="Eev-zu-pIh"/>
+                        <constraint firstItem="ksR-nA-fit" firstAttribute="top" secondItem="dfL-8c-9gJ" secondAttribute="bottom" constant="26" id="FKp-ll-FjN"/>
+                        <constraint firstItem="ucf-il-QZ1" firstAttribute="trailing" secondItem="IvP-ch-CYv" secondAttribute="trailing" id="JWm-IE-UTh"/>
+                        <constraint firstItem="7mR-nm-AFP" firstAttribute="top" secondItem="77x-iv-NXt" secondAttribute="bottom" constant="8" id="Nwb-ua-x8N"/>
+                        <constraint firstItem="dfL-8c-9gJ" firstAttribute="centerX" secondItem="8sc-bG-Cqa" secondAttribute="centerX" id="TJO-Zp-bhU"/>
+                        <constraint firstItem="gMp-UG-1AN" firstAttribute="top" secondItem="8sc-bG-Cqa" secondAttribute="top" id="aHt-o1-6FC"/>
+                        <constraint firstItem="IvP-ch-CYv" firstAttribute="leading" secondItem="KIV-5f-iCj" secondAttribute="leading" id="bt1-PB-GWX"/>
+                        <constraint firstItem="s4a-SW-PrF" firstAttribute="top" secondItem="IvP-ch-CYv" secondAttribute="bottom" constant="30" id="diK-T7-5Gu"/>
+                        <constraint firstAttribute="trailing" secondItem="ksR-nA-fit" secondAttribute="trailing" constant="12" id="h3Y-MV-xap"/>
+                        <constraint firstItem="rXt-hm-dxc" firstAttribute="top" secondItem="KIV-5f-iCj" secondAttribute="bottom" constant="30" id="hI0-W3-0P8"/>
+                        <constraint firstItem="77x-iv-NXt" firstAttribute="leading" secondItem="ksR-nA-fit" secondAttribute="leading" id="mVg-Io-W2I"/>
+                        <constraint firstItem="77x-iv-NXt" firstAttribute="top" secondItem="ksR-nA-fit" secondAttribute="bottom" constant="30" id="mrB-BW-d2U"/>
+                        <constraint firstItem="IvP-ch-CYv" firstAttribute="trailing" secondItem="KIV-5f-iCj" secondAttribute="trailing" id="nHu-P9-Wq9"/>
+                        <constraint firstItem="gMp-UG-1AN" firstAttribute="trailing" secondItem="Yub-3o-AFp" secondAttribute="trailing" id="zMd-Ue-TPo"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="fCj-il-CFO"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="Yub-3o-AFp"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="8sc-bG-Cqa" secondAttribute="bottom" id="A5C-DG-Imj"/>
+                <constraint firstItem="8sc-bG-Cqa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ILw-7Y-kMi"/>
+                <constraint firstItem="8sc-bG-Cqa" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="tPN-wD-U2A"/>
+                <constraint firstItem="8sc-bG-Cqa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tgf-hk-8yi"/>
+            </constraints>
+            <point key="canvasLocation" x="142.74809160305344" y="157.74647887323945"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AI0Festival_NERT" width="205" height="23"/>
+        <image name="AI1Festival_NERT" width="286" height="23"/>
+        <image name="AI2Festival_NERT" width="251" height="23"/>
+        <image name="AI3Festival_NERT" width="301" height="23"/>
+        <image name="HoliHuptitlr" width="148.33332824707031" height="38.333332061767578"/>
+        <image name="customBuNERT" width="351" height="100"/>
+        <image name="ringballAibg" width="375" height="1191"/>
+    </resources>
+</document>
