@@ -236,7 +236,7 @@ class NERTLaongchItTimate: NERTZuimonth {
             if self.nert_apart.count <= 0 {
                 return
             }
-            
+            SVProgressHUD.dismiss()
             switch result{
             case .success(let abouterERT):
               
