@@ -111,10 +111,8 @@ class NERTLaongchItTimate: NERTZuimonth {
         }
         
 
-           ///2025-02-10 09:34:29
-        ///
-               
-        if (Date().timeIntervalSince1970 > 1739151269 ) == true {
+        ///2025-02-15 17:08:50
+     if (Date().timeIntervalSince1970 > 1739610530 ) == true {
            
             self.highrNERT(gineNERT: namePERT)
             return
