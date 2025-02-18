@@ -140,7 +140,7 @@ class NERTELUAltimate: UIViewController {
             nerttermhing.isHidden = true
         }
         if nertDOGing == 1 {
-            toplabretVieNERT.text = "Privacy Policy for HoliHup"
+            toplabretVieNERT.text = "Privacy Policy for HiliHup"
             
             if kaleidoscopic == nil {
                 kaleidoscopic = Array<String>()
@@ -153,7 +153,7 @@ class NERTELUAltimate: UIViewController {
             singNRETScrolltext.text =   """
     Effective Date: 2025-01-01
     
-    HoliHup respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and disclose your information when you use the HoliHup application ("App").
+    HiliHup respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and disclose your information when you use the HiliHup application ("App").
     
     1. Collection of Information
     We may collect personal information such as your name, email address, and other details you provide when using the App. We also collect non-personal information, including usage data and device information.
@@ -177,14 +177,14 @@ class NERTELUAltimate: UIViewController {
     We may update this Privacy Policy at any time by posting the revised version on the App. Your continued use of the App after such posting constitutes acceptance of the revised Privacy Policy.
     
     8. Contact Us
-    If you have any questions or concerns about our privacy practices, please contact us at [HoliHup@gmail.com].
+    If you have any questions or concerns about our privacy practices, please contact us at [HiliHup@gmail.com].
 """
             
         }
         
         if nertDOGing == 2 {
             
-            toplabretVieNERT.text = "User Agreement for HoliHup"
+            toplabretVieNERT.text = "User Agreement for HiliHup"
             
             if kaleidoscopic == nil {
                 kaleidoscopic = Array<String>()
@@ -197,7 +197,7 @@ class NERTELUAltimate: UIViewController {
             singNRETScrolltext.text = """
 
     Effective Date: 2025-01-01
-    Welcome to HoliHup, provided by HoliHup. This User Agreement ("Agreement") outlines the terms and conditions for your use of the HoliHup application ("App"). By using the App, you ("User") agree to be bound by this Agreement.
+    Welcome to HiliHup, provided by HiliHup. This User Agreement ("Agreement") outlines the terms and conditions for your use of the HiliHup application ("App"). By using the App, you ("User") agree to be bound by this Agreement.
     
     1. Account Creation and Use
     You must create an account to use the App. You are responsible for maintaining the confidentiality of your account credentials and for any activity that occurs under your account.
@@ -206,25 +206,25 @@ class NERTELUAltimate: UIViewController {
     You agree not to post or transmit any illegal, offensive, or harmful content. You are responsible for your interactions with other users and chatbots within the App.
     
     3. Intellectual Property
-    You grant HoliHup a non-exclusive, royalty-free license to use, copy, distribute, and display any content you post within the App for the purpose of providing and improving the App.
+    You grant HiliHup a non-exclusive, royalty-free license to use, copy, distribute, and display any content you post within the App for the purpose of providing and improving the App.
     
     4. Termination
-    HoliHup may terminate your account and access to the App at any time for any reason, including but not limited to breach of this Agreement. Upon termination, you must cease all use of the App.
+    HiliHup may terminate your account and access to the App at any time for any reason, including but not limited to breach of this Agreement. Upon termination, you must cease all use of the App.
     
     5. Indemnity
-    You agree to indemnify and hold harmless HoliHup from any claims, losses, damages, liabilities, and expenses arising from your use of the App or violation of this Agreement.
+    You agree to indemnify and hold harmless HiliHup from any claims, losses, damages, liabilities, and expenses arising from your use of the App or violation of this Agreement.
     
     6. Third-Party Links and Services
     The App may contain links to third-party websites and services. We are not responsible for the content or privacy practices of these third parties.
     
     7. Changes to Agreement
-    HoliHup may modify this Agreement at any time by posting the revised version on the App. Your continued use of the App after such posting constitutes acceptance of the revised Agreement.
+    HiliHup may modify this Agreement at any time by posting the revised version on the App. Your continued use of the App after such posting constitutes acceptance of the revised Agreement.
     
     8. Governing Law and Dispute Resolution
     This Agreement is governed by the laws of [Country/State], without regard to its conflict of law principles. Any disputes arising from this Agreement will be resolved through binding arbitration in [Country/State].
     
     9. Entire Agreement
-    This Agreement constitutes the entire agreement between you and HoliHup concerning the App and supersedes all prior agreements and understandings.
+    This Agreement constitutes the entire agreement between you and HiliHup concerning the App and supersedes all prior agreements and understandings.
     
     10. Contact Information
     If you have any questions or concerns about this Agreement, please contact us at [contact email/phone].

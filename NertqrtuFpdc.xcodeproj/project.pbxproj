@@ -557,7 +557,7 @@
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NertqrtuFpdc/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HoliHup;
+				INFOPLIST_KEY_CFBundleDisplayName = HiliHup;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos, upload avatars, upload community photos, make audio and video calls, HoliUp needs access to your camera permissions";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "HoliHup needs location permissions to make use of the iCloud camera's location functionalities.";
@@ -573,7 +573,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nertqrtu.holihup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -600,7 +600,7 @@
 				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NertqrtuFpdc/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HoliHup;
+				INFOPLIST_KEY_CFBundleDisplayName = HiliHup;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos, upload avatars, upload community photos, make audio and video calls, HoliUp needs access to your camera permissions";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "HoliHup needs location permissions to make use of the iCloud camera's location functionalities.";
@@ -616,7 +616,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nertqrtu.holihup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
